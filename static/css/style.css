@@ -1,0 +1,101 @@
+/* --------- Defaults --------- */
+body {
+		font-family: 'Lora';
+		font-size: 14pt;
+		background: #282a36;
+		color: #f8f8f2;
+		margin: 0px;
+		margin-top: 1.5em;
+}
+
+.content {
+		max-width: 80ch;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+}
+
+.content h2 {
+		padding: 5px;
+		text-align: center;
+}
+
+.content h2:after {
+		content: "";
+		display: block;
+		width: 300px;
+		height: 1px;
+		background: #f8f8f2;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+a {
+		color: #AFAFBE;
+}
+
+a:visited {
+		color: #8F8FAE;
+}
+
+ul {
+		list-style: none;
+		padding-left: 0;
+}
+
+.post {
+		text-align: center;
+}
+
+.post-meta {
+		font-size: 12pt;
+}
+
+.post h2 {
+		margin-bottom: 0.05em;
+}
+
+.post h2:after {
+		display: none;
+}
+
+.highlight {
+		max-width: 80ch;
+		background: #081a26 !important;
+		font-family: "Source Code Pro";
+}
+
+/* ---------- Single Posts ----------- */
+.post-main {
+		max-width: 80ch;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+}
+
+.post-title {
+		margin-bottom: 0.05em;
+}
+
+
+/* --------- Navbar --------- */
+.navbar {
+		position: fixed;
+		top: 0px;
+		z-index: 1;
+		border-bottom: 1px solid #081a26;
+		height: 1.4em;
+		width: 100%;
+		background: #282a36;
+		padding: 0px 1em;
+}
+
+.navbar ul {
+		list-style: none;
+		margin: 0px;
+}
+
+.navbar li {
+		display: inline-block;
+}

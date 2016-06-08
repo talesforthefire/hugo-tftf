@@ -1,0 +1,10 @@
+name = "TFTF"
+license = "MIT"
+description = "The dev blog theme used on https://talesforthefire.com/blog/"
+homepage = "https://talesforthefire.com/blog/"
+tags = ["syntax highlighting"]
+features = ["rss", "syntax highlighting", "blog", "pagination"]
+
+[author]
+name = "zovt"
+homepage = "https://talesforthefire.com"
