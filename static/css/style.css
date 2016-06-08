@@ -23,7 +23,8 @@ body {
 .content h2:after {
 		content: "";
 		display: block;
-		width: 300px;
+		max-width: 300px;
+		width: 80%;
 		height: 1px;
 		background: #f8f8f2;
 		margin-top: 20px;
